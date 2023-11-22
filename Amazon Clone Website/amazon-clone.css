@@ -17,3 +17,8 @@ header{
     height: 60px;
 }
 
+.search-bar{
+    position:fixed;
+    top:20px;
+    left:120px;
+}
