@@ -1,0 +1,19 @@
+header{
+    width: 100%;
+    height:60px;
+    position: fixed;
+    background-color: black;
+    top:0px;
+    left:0px;
+}
+
+.amazon-logo{
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+
+.amazon-logo-img{
+    height: 60px;
+}
+
