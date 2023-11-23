@@ -19,6 +19,17 @@ header{
 
 .search-bar{
     position:fixed;
-    top:20px;
+    top:10px;
     left:120px;
+    display: flexbox;
+    width:1200px;
+    align-items: center;
+}
+
+.search-bar-placeholder{
+    width:500px;
+    height: 36px;
+    border:none;
+    padding-left: 15px;
+    position: relative;
 }
