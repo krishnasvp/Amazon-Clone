@@ -77,3 +77,17 @@ header{
     color: white;
     font-size: 20px;
 }
+
+.orders{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', Arial;
+    font-weight:bold;
+}
+
+.return{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', Arial;
+    font-weight:light;
+}
