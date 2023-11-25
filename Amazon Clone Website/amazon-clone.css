@@ -86,3 +86,13 @@ header{
     font-family: 'Roboto', Arial;
     font-weight:light;
 }
+
+.return-policy{
+    width: 68px;
+    height:58px;
+}
+
+.return-policy:hover{
+    border:1px solid white;
+    border-radius: 4px; 
+}
