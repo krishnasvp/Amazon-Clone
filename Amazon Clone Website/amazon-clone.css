@@ -67,24 +67,10 @@ header{
 
 .h-section-2{
     position:fixed;
-    left:930px;
+    left:1390px;
     top:0px;
     height:50px;
     width: 80px;
-}
-
-.orders{
-    color: white;
-    font-size: 20px;
-    font-family: 'Roboto', Arial;
-    font-weight:bold;
-}
-
-.return{
-    color: white;
-    font-size: 20px;
-    font-family: 'Roboto', Arial;
-    font-weight:light;
 }
 
 .return-policy{
@@ -94,5 +80,23 @@ header{
 
 .return-policy:hover{
     border:1px solid white;
-    border-radius: 4px; 
+    border-radius: 8px; 
+    width:70px;
+}
+
+.orders{
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', Arial;
+    font-weight:bold;
+    padding-left:5px;
+}
+
+.return{
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', Arial;
+    font-weight:light;
+    padding-top:10px;
+    padding-left:5px;
 }
