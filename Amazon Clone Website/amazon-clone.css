@@ -100,3 +100,22 @@ header{
     padding-top:10px;
     padding-left:5px;
 }
+
+.h-section-3{
+    position: fixed;
+    right:0px;
+    top:0px;
+}
+
+.cart{
+    color: white;
+    position: inherit;
+    top:10px;
+    right:8px;
+    font-size: 16px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.cart-icon{
+    width: 34px;
+}
