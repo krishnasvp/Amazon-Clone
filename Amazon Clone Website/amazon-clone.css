@@ -26,6 +26,10 @@ header{
     height: 60px;
 }
 
+.amazon-logo:hover{
+    border:1px solid white;
+    border-radius: 4px;
+}
 
 .amazon-logo-img{
     height: 60px;
