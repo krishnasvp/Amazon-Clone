@@ -141,3 +141,11 @@ header{
     display: flex;
     flex-direction: column;
 }
+
+.item-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin-bottom: 20px;
+}
