@@ -131,6 +131,12 @@ header{
 
 /*item grid start*/
 
+body{
+    font-family: 'Roboto', Arial;
+    color: black;
+    margin: 0;
+}
+
 .item-slots{
     padding-top:40px;
     padding-bottom:25px;
@@ -148,4 +154,77 @@ header{
     align-items: center;
     height: 180px;
     margin-bottom: 20px;
+}
+
+.item{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item-name{
+    height:40px;
+    margin-bottom: 5px;
+}
+
+.rating-stars{
+    width: 100px;
+    margin-right:6px;
+}
+
+.rating-text{
+    color: #017cb6;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.item-price{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.item-quantity{
+    margin-bottom:17px;
+}
+
+select{
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(213,217,217);
+    border-radius: 8px;
+    padding:3px 5px;
+    font-size:15px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(213,217,217.0.5);
+}
+
+option{
+    font-weight: normal;
+    display:block;
+    min-height: 1.2em;
+    padding:0px 2px 1px;
+    white-space:nowrap;
+}
+
+.item-spacer{
+    flex:1;
+}
+
+.item-checkmark{
+    color: rgb(6,125,98);
+    font-size: 16px;
+    display: flex;
+    align-items:center;
+    margin-bottom: 8px;
+    opacity:0;
+}
+
+.add-to-cart{
+    width: 100%;
+    padding: 8px;
+    border-radius: 50px;
+    color: black;
+    background-color: rgb(255,216,20);
+    border:1px solid rgb(252,210,0);
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(213,217,217.0.5);
 }
