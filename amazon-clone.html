@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Amazon Clone</title>
+
+        <!--Stylesheet-->
+        <link rel="stylesheet" href="amazon-clone.css">
+
+
+        <!--Script-->
+        <script src="amazon-clone.js"></script>
+
+        <!--font-awsome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--google-font-roboto-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+            
+            <!--logo-->
+            <div class="amazon-logo">
+            <img class="amazon-logo-img" src="images/amazon-logo.png">
+            </div>
+            
+            <!--mid-section-->
+            <section class="mid-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-logo">
+            <img class="search-icon" src="images/search-icon.png">
+            </button>
+            </section>
+            <!--mid-section-->
+
+            <!--right-section-->
+            <section class="right-section">
+                <a class="orders" href="orders">
+                    <span class="returns-text">Returns</span>
+                    <span class="orders-text">& Orders</span>
+                </a>
+                <a class="checkout" href="checkout">
+                    <img src="images/cart-icon-2.png" class="cart-icon">
+                    <span class="cart-text">Cart</span>
+                </a>
+            </section>
+
+        </header>
+
+        <main>
+
+        <div class="item-grid">
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/shoes.jpg">
+                </div>
+                <div class="item-name">Casual Sneaks - Single pair</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/rating-1.png">
+                    <div class="rating-text">87</div>
+                </div>
+                <div class="item-price">$23.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/fossil-watch.jpg">
+                </div>
+                <div class="item-name">FOSSIL blacklit fossil Watch</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/5-Star.png">
+                    <div class="rating-text">100</div>
+                </div>
+                <div class="item-price">$249.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/bag.webp">
+                </div>
+                <div class="item-name">American Tourister Bag</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/rating-1.png">
+                    <div class="rating-text">85</div>
+                </div>
+                <div class="item-price">$55.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/helmet.jpg">
+                </div>
+                <div class="item-name">Custom Helmet</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/rating-1.png">
+                    <div class="rating-text">85</div>
+                </div>
+                <div class="item-price">$86.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/rubiks-cube.jpg">
+                </div>
+                <div class="item-name">Cubic - 3x3 Rubiks Cube</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/4-star.png">
+                    <div class="rating-text">80</div>
+                </div>
+                <div class="item-price">$9.66</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/Digi-scratchpad.jpg">
+                </div>
+                <div class="item-name">Ectronics - Digi Scratchpad</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/4-star.png">
+                    <div class="rating-text">80</div>
+                </div>
+                <div class="item-price">$19.51</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/gaming-mouse.webp">
+                </div>
+                <div class="item-name">Logitech - 3040x Series Gaming Mouse</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/5-Star.png">
+                    <div class="rating-text">100</div>
+                </div>
+                <div class="item-price">$130.22</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/joystick.webp">
+                </div>
+                <div class="item-name">Ambrane - Dual Shock Controller</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/rating-1.png">
+                    <div class="rating-text">85</div>
+                </div>
+                <div class="item-price">$144.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/car-airpump.jpg">
+                </div>
+                <div class="item-name">3TNT-tyre inflator</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/rating-1.png">
+                    <div class="rating-text">85</div>
+                </div>
+                <div class="item-price">$54.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/phone.jpg">
+                </div>
+                <div class="item-name">Redmi - A5 11 inch display smart phone</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/4-star.png">
+                    <div class="rating-text">80</div>
+                </div>
+                <div class="item-price">$124.34</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/neck-pillow.jpg">
+                </div>
+                <div class="item-name">Neck pillow by KOMFY</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/5-Star.png">
+                    <div class="rating-text">100</div>
+                </div>
+                <div class="item-price">$23.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/shoes.jpg">
+                </div>
+                <div class="item-name">Casual Sneaks - Single pair</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/rating-1.png">
+                    <div class="rating-text">87</div>
+                </div>
+                <div class="item-price">$23.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/fossil-watch.jpg">
+                </div>
+                <div class="item-name">FOSSIL blacklit fossil Watch</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/5-Star.png">
+                    <div class="rating-text">100</div>
+                </div>
+                <div class="item-price">$249.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/bag.webp">
+                </div>
+                <div class="item-name">American Tourister Bag</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/rating-1.png">
+                    <div class="rating-text">85</div>
+                </div>
+                <div class="item-price">$55.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/helmet.jpg">
+                </div>
+                <div class="item-name">Custom Helmet</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/rating-1.png">
+                    <div class="rating-text">85</div>
+                </div>
+                <div class="item-price">$86.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/rubiks-cube.jpg">
+                </div>
+                <div class="item-name">Cubic - 3x3 Rubiks Cube</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/4-star.png">
+                    <div class="rating-text">80</div>
+                </div>
+                <div class="item-price">$9.66</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/Digi-scratchpad.jpg">
+                </div>
+                <div class="item-name">Ectronics - Digi Scratchpad</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/4-star.png">
+                    <div class="rating-text">80</div>
+                </div>
+                <div class="item-price">$19.51</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/gaming-mouse.webp">
+                </div>
+                <div class="item-name">Logitech - 3040x Series Gaming Mouse</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/5-Star.png">
+                    <div class="rating-text">100</div>
+                </div>
+                <div class="item-price">$130.22</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/joystick.webp">
+                </div>
+                <div class="item-name">Ambrane - Dual Shock Controller</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/rating-1.png">
+                    <div class="rating-text">85</div>
+                </div>
+                <div class="item-price">$144.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/car-airpump.jpg">
+                </div>
+                <div class="item-name">3TNT-tyre inflator</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/rating-1.png">
+                    <div class="rating-text">85</div>
+                </div>
+                <div class="item-price">$54.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/phone.jpg">
+                </div>
+                <div class="item-name">Redmi - A5 11 inch display smart phone</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/4-star.png">
+                    <div class="rating-text">80</div>
+                </div>
+                <div class="item-price">$124.34</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img">
+                    <img class="item" src="images/neck-pillow.jpg">
+                </div>
+                <div class="item-name">Neck pillow by KOMFY</div>
+                <div class="item-rating">
+                    <img class="rating-stars" src="images/5-Star.png">
+                    <div class="rating-text">100</div>
+                </div>
+                <div class="item-price">$23.00</div>
+                <div class="item-quantity">
+                    <select class="quantity-selector">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                       <option value="9">9</option>
+                       <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark">
+                    <img src="images/checkmark.png">" Added "
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+            
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+            <div class="item-slots">
+                <div class="item-img"></div>
+                <div class="item-name"></div>
+                <div class="item-rating"></div>
+                <div class="item-price"></div>
+                <div class="item-quantity"></div>
+                <div class="item-spacer"></div>
+                <div class="item-checkmark"></div>
+                <button class="add-to-cart"></button>
+            </div>
+
+        </div>
+
+        </main>
+
+    </body>
+
+</html>
