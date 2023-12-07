@@ -18,3 +18,13 @@ header{
     display: flex;
     align-items: center;
 }
+
+.left-section{
+    width: 150px;
+    display: block;
+}
+
+.amazon-name{
+    width: 100px;
+    margin-top: 12px;
+}
